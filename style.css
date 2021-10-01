@@ -1,0 +1,133 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html,body { height: 100%; }
+
+.back {
+	background-image: url('../imagens/ola12.png');
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	background-position: top;
+
+}
+
+.brand-logo {
+	width: 61px;
+	height: 61px;
+	background-image: url('../imagens/regu.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	top: 1px;
+}
+ .conteudo-header {
+ 	position: relative;
+ 	z-index: 1;
+ 	max-width: 700px;
+ 	margin-top: 110px;
+ 	
+ }
+
+ .conteudo-header h2 {
+ 	font-size: 44px;
+ 	font-weight: bold ;
+ 	color: white;
+ 	text-shadow: 1px 1px 2px black;
+ }
+
+ .conteudo-header h2 > span {
+ 	color: #2692FF;
+ }
+ .conteudo-header p {
+ 	margin-top: 18px;
+ 	font-size: 19px;
+ 	font-weight: bold;
+ 	color: white;
+ 	text-shadow: 1px 1px 1px black;
+ }
+
+ .conteudo-header a {
+ 	display: block;
+ 	width: 177px;
+ 	height: 44px;
+ 	background: #2692FF;
+ 	color: white;
+ 	text-decoration: none;
+ 	text-align: center;
+ 	margin-top: 18px;
+ 	line-height: 44px;
+ 	border-radius: 20px;
+ }
+
+ .custom-title {
+  position: relative;
+}
+.custom-title h2 {
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 30px;
+  color: #444;
+  background: white;
+  z-index: 2;
+}
+
+.custom-title  > div {
+  width: 100%;
+  position: absolute;
+  height: 3px;
+  background: #777;
+  top: 55px;
+  left: 0;
+  z-index: 1;
+}
+
+.fotos {
+	padding-top:150px;
+}
+.instagram-chamada{
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding:40px 0;
+	background: #98a5ae;
+}
+
+.instagram-chamada p{
+	line-height: 23px;
+	color: white;
+	padding:10px 0;
+	font-size: 13px;
+}
+
+.mosaico-social{
+	float: left;
+	width: 100%;
+}
+
+.img-mosaico-single-social{
+	float: left;
+	width: calc(100% / 8);
+	padding-top: calc(100% / 8);
+	background-color: rgb(210,210,210);
+	border:6px solid white;
+}
+
+.img-mosaico-single-social .um {
+	background-image: url('../imagens/e1.jpeg');
+}
+@media screen and (max-width: 760px) {
+	section.back {
+		min-height: 650px;
+	}
+}
+@media screen and (max-width: 600px){
+	a.brand-logo{
+		width: 52px;
+		height: 52px;
+	}
+}
